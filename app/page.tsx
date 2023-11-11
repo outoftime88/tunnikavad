@@ -55,7 +55,7 @@ export default function Page() {
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
           Generate your next Twitter bio using chatGPT
         </h1>
-        <p className="text-slate-500 mt-5">47,118 bios generated so far.</p>
+        <p className="text-slate-500 mt-5">Juba loodud 1000 tunnikava.</p>
         <form className="max-w-xl w-full" onSubmit={onSubmit}>
           <div className="flex mt-10 items-center space-x-3">
             <Image
