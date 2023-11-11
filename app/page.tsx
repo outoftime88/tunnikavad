@@ -53,7 +53,7 @@ export default function Page() {
           <p>Star on GitHub</p>
         </a>
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Generate your next Twitter bio using chatGPT
+          Loo oma järgmine tunnikava
         </h1>
         <p className="text-slate-500 mt-5">Juba loodud 1000 tunnikava.</p>
         <form className="max-w-xl w-full" onSubmit={onSubmit}>
@@ -66,9 +66,9 @@ export default function Page() {
               className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
-              Copy your current bio{' '}
+              {' '}
               <span className="text-slate-500">
-                (or write a few sentences about yourself)
+                (kirjelda oma tundi)
               </span>
               .
             </p>
@@ -95,7 +95,7 @@ export default function Page() {
               className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               type="submit"
             >
-              Generate your bio &rarr;
+              Loo &rarr;
             </button>
           )}
           {isLoading && (
