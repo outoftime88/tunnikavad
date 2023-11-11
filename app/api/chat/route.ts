@@ -21,7 +21,7 @@ export async function POST(req: Request) {
       {
         role: 'user',
         content: `Loo tunnikava ${vibe} teemal". ${
-          vibe === 'Funny'
+          vibe === 'Educational'
             ? "Make sure there is a joke in there and it's a little ridiculous."
             : null
         }
